@@ -1,4 +1,4 @@
-package ru.krivitskaya.anna.review
+package ru.krivitskaya.anna.lessons.lesson1
 
 object ForComp extends App {
   val composedOption: Option[Int] =

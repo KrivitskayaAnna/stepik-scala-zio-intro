@@ -1,4 +1,4 @@
-package ru.krivitskaya.anna.review
+package ru.krivitskaya.anna.lessons.lesson1
 
 case class BrokenCustomStructure[A](value: A) {
   def map[B](f: A => B): BrokenCustomStructure[B] =
