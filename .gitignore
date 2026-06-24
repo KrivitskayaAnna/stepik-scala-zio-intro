@@ -4,3 +4,4 @@ project/project
 project/target
 .idea
 .bsp
+.DS_Store
