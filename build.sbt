@@ -8,10 +8,6 @@ lazy val zioDependencies = Seq(
   "dev.zio" %% "zio"      % zioVersion
 )
 
-lazy val catsDependencies = Seq(
-  "dev.zio" %% "zio"      % zioVersion
-)
-
 lazy val testZioDependencies = Seq(
   "dev.zio" %% "zio-test",
   "dev.zio" %% "zio-test-sbt"
