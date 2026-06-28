@@ -6,7 +6,7 @@ case class Box[A](value: A) {
   def flatMap[B](f: A => Box[B]): Box[B] = f(value)
 }
 
-object Main extends App {
+object Box extends App {
   val result: Box[Int] =
     for {
       x <- Box(10)

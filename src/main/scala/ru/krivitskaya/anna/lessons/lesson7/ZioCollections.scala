@@ -1,4 +1,4 @@
-package ru.krivitskaya.anna.lessons.lesson6
+package ru.krivitskaya.anna.lessons.lesson7
 
 import zio._
 
@@ -15,7 +15,7 @@ object ZioCollections extends ZIOAppDefault {
   val parallel: Task[List[String]] = ZIO.foreachPar(userIds)(fetchUser)
 
   val limited: Task[List[String]] = ZIO.foreachPar(userIds)(fetchUser).withParallelism(2)
-  
+
   //  foreachDiscard
   val emails: List[String] = List("alice@mail.com", "bob@mail.com", "carol@mail.com")
 

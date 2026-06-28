@@ -22,5 +22,11 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       zioDependencies,
       testZioDependencies
-    ).reduce(_ ++ _)
+    ).reduce(_ ++ _),
+    scalacOptions ++= Seq(
+      "-deprecation",
+      "-unchecked",
+      "-feature",
+//      "-Xfatal-warnings"
+    )
   )
