@@ -1,4 +1,4 @@
-package ru.krivitskaya.anna.solutions.lesson10
+package ru.krivitskaya.anna.tasks.lesson10
 
 import zio._
 
